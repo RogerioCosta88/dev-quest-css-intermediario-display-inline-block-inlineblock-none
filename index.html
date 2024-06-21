@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Quest: Display</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Display</h1>
+    <p>
+      O <strong>display</strong> nos ajuda a modificar os elementos na tela.
+      Alguns elementos oculpam uma linha inteira independêntemente do seu
+      tamanho.
+    </p>
+    <p>
+      Exemplo: uma <em>li</em> ocupa uma linha inteira, mesmo se ela tiver
+      somente um caracter.
+    </p>
+
+    <h2>Display Block</h2>
+    <p>
+      O <strong>display: block</strong> faz um elemento que ocupa uma linha
+      inteira, ocupar somente um espaço determinado
+      <em>nós devemos definir esse espaço no <strong>CSS</strong></em>, ficando o restante da linha vázio.
+    </p>
+    <ul class="em-bloco">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+
+    <h2>Display Inline</h2>
+    <p>O <strong>display: inline</strong> faz com que elementos que ocupam uma linha inteira ficarem na mesma linha. Não aceitam a mudança de <em>width</em> e <em>height</em>. Os elementos definidos como <strong>display: inline</strong> sempre ocuparam somente o seu espaço, não deixando espaços vázios.</p>
+    <ul class="em-linha">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+
+    <h2>Display Inline-Block</h2>
+    <p>O <strong>display: inline-block</strong> é usado para deixarmos os elementos em linha e ao mesmo tempo, definirmos valores para <em>width</em> e <em>height</em>.</p>
+    <ul class="em-linha-e-bloco">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+
+    <h2>Display None</h2>
+    <p>Já o <strong>display: none</strong> é usado para ocultarmos os elementos. O usuário não verá o elemento na tela, mas ele existe no <strong>HTML</strong>.</p>
+    <ul class="esconder">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+  </body>
+</html>
