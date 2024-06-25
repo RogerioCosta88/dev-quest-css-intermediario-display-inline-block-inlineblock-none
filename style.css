@@ -7,6 +7,18 @@ html {
     font-size: 25px;
 }
 
+body {
+    padding-top: 50px;
+}
+
+header {
+    position: fixed;
+    padding: 10px;
+    top: 0;
+    background-color: #dc143c;
+    width: 100%;
+}
+
 ul {
     margin-bottom: 50px;
 }
